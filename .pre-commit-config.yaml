@@ -1,10 +1,10 @@
 repos:
-- repo: https://github.com/charliermarsh/ruff-pre-commit
-  rev: 'v0.0.260'
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: 'v0.3.4'
   hooks:
     - id: ruff
 - repo: https://github.com/iterative/dvc
-  rev: 2.52.0
+  rev: 3.48.4
   hooks:
   - id: dvc-pre-commit
     additional_dependencies:
